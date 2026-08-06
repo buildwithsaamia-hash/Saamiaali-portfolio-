@@ -5,11 +5,17 @@ AI Web Developer building intelligent digital products.
 Based in Karachi, Pakistan.
 
 ## 🛠️ Skills
+
+- Microsoft Office (Word, Excel, PowerPoint)
+- CIT Certification
+- Social Media Marketing
 - Next.js & React
-- TypeScript
+- TypeScript & JavaScript
 - Tailwind CSS
 - Claude AI Integration
-- Firebase
+- GitHub & Version Control
+- Web Design & Development
+- AI-Powered Application Development
 
 ## 💼 Projects
 
