@@ -20,7 +20,7 @@ AI-powered platform protecting freelancers from fake clients.
 **Solution:** AI risk analysis before accepting projects
 **Tech:** Next.js, Claude API, Tailwind CSS
 
-[Live Demo](https://safefreelance-demo.replit.dev)
+[LiveDemo](https://e4b5b2fc-d2c3-4bad-8e97-c967634b6af5-00-3j69hrg5jb49u.sisko.replit.dev/?nativeBrowserPresentationStyle=fullScreen)
 
 ## 📧 Contact: 03103679990
 - Email: buildwithsaamia@gmail.com
