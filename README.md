@@ -1,34 +1,80 @@
-# Saamia Ali - AI Portfolio
+# Saamia Ali | AI Assisted Web Developer Portfolio
 
-## 👋 About Me
-AI Web Developer building intelligent digital products.
-Based in Karachi, Pakistan.
+Welcome to my personal portfolio website.
 
-## 🛠️ Skills
+I am a student learning Web Development with AI and building practical digital projects using AI assisted development tools.
 
-- Microsoft Office (Word, Excel, PowerPoint)
-- CIT Certification
-- Social Media Marketing
-- Next.js & React
-- TypeScript & JavaScript
-- Tailwind CSS
-- Claude AI Integration
-- GitHub & Version Control
-- Web Design & Development
-- AI-Powered Application Development
+## About Me
 
-## 💼 Projects
+I am interested in web development, artificial intelligence and digital product creation.
+
+I completed a Vibe Coding with AI course where I learned web development and AI assisted development.
+
+I have also completed courses in:
+
+• Social Media Marketing
+• MS Office
+• CIT
+
+## Skills
+
+• HTML
+• CSS
+• Web Development
+• AI Assisted Development
+• WordPress
+• Replit
+• Claude AI
+• ChatGPT
+• Google AI Tools
+• Kimi AI
+• GitHub
+• Firebase
+• MS Office
+• Social Media Marketing
+
+## Projects
 
 ### SafeFreelance AI
-AI-powered platform protecting freelancers from fake clients.
 
-**Problem:** Freelancers lose money to payment scams
-**Solution:** AI risk analysis before accepting projects
-**Tech:** Next.js, Claude API, Tailwind CSS
+SafeFreelance AI is my SaaS project designed to help freelancers evaluate potential client and project risks before starting work.
 
-[LiveDemo](https://e4b5b2fc-d2c3-4bad-8e97-c967634b6af5-00-3j69hrg5jb49u.sisko.replit.dev/?nativeBrowserPresentationStyle=fullScreen)
+#### Problem
 
-## 📧 Contact: 03103679990
-- Email: buildwithsaamia@gmail.com
-- GitHub: buildwithsaamia-hash 
-- Instagram: @buildwithsaamia
+Freelancers can face fake clients, suspicious payment proofs, payment disputes and unclear project requirements.
+
+#### Solution
+
+SafeFreelance AI explores AI assisted tools that can help freelancers identify potential risks and make better decisions before accepting a project.
+
+#### Features
+
+• AI Client Risk Analysis
+• Scam Risk Score
+• Payment Proof Analysis
+• AI Contract Generator
+• Milestone Payment Planner
+• Project Dashboard
+
+### Must Watch
+
+Must Watch is an English learning application created as part of my practical learning journey.
+
+## Learning
+
+My current focus is AI assisted web development and building useful digital projects.
+
+## Contact
+
+Email: buildwithsaamia@gmail.com
+
+GitHub: https://github.com/buildwithsaamia-hash
+
+Instagram: https://instagram.com/buildwithsaamia
+
+Facebook: https://facebook.com/saamia.ali
+
+Threads: https://threads.net/@buildwithsaamia
+
+TikTok: https://tiktok.com/@saamia_ali
+
