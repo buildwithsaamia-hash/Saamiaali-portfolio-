@@ -56,13 +56,13 @@ SafeFreelance AI explores AI assisted tools that can help freelancers identify p
 • Milestone Payment Planner
 • Project Dashboard
 
-### Must Watch
+## Must Watch
 
-Must Watch is an English learning application created as part of my practical learning journey.
+Must Watch is a web project designed to organize
+recommended movies, shows and entertainment content
+in a simple and user friendly interface.
 
-## Learning
-
-My current focus is AI assisted web development and building useful digital projects.
+[View Must Watch](https://36e51c34-5122-4f42-b748-f5b6342560ac-00-21zvjket7mplx.pike.replit.dev/?nativeBrowserPresentationStyle=fullScreen)
 
 ## Contact
 
