@@ -62,8 +62,7 @@ Must Watch is a web project designed to organize
 recommended movies, shows and entertainment content
 in a simple and user friendly interface.
 
-[View Must Watch](https://36e51c34-5122-4f42-b748-f5b6342560ac-00-21zvjket7mplx.pike.replit.dev/?nativeBrowserPresentationStyle=fullScreen)
-
+[View Must Watch](https://must-watch--itssaamiaali.replit.app/)
 ## Contact
 
 Email: buildwithsaamia@gmail.com
