@@ -1,50 +1,143 @@
-Saamia Ali | AI Assisted Web Developer
+👩‍💻 Saamia Ali
 
-Welcome to my personal portfolio repository.
+AI Assisted Web Developer | Student | Digital Product Creator
 
-I am a student exploring web development, AI assisted development, and digital product creation. I build practical websites, web applications, and SaaS projects using modern development tools and AI assisted workflows.
+«Building practical websites, web applications, and SaaS projects with AI assisted development.»
+
+Welcome to my GitHub portfolio.
+
+I am a student exploring Web Development, Artificial Intelligence, AI assisted development, and digital product creation. I build practical websites and web applications using modern web technologies and AI assisted development tools.
 
 🌐 Live Portfolio
 
-"View My Portfolio" (https://buildwithsaamia-hash.github.io/Saamiaali-portfolio-/)
+"View My Live Portfolio" (https://buildwithsaamia-hash.github.io/Saamiaali-portfolio-/)
 
-👩‍💻 About Me
+🚀 Featured Projects
 
-I am interested in:
+🛡️ SafeFreelance AI
 
-• Web Development
-• Artificial Intelligence
-• AI Assisted Development
-• SaaS Product Creation
-• Digital Product Development
+AI Assisted Freelancer Safety SaaS Project
 
-I completed a Vibe Coding with AI course, where I learned how to build websites and digital products with AI assisted development tools.
+SafeFreelance AI is a SaaS project designed to help freelancers identify potential client and project risks before accepting work.
 
-I have also completed courses in:
+Problem
 
-• CIT
-• MS Office
-• Social Media Marketing
-• Digital Marketing
+Freelancers can face fake clients, suspicious payment proofs, payment disputes, unclear project requirements, and other risks when working with new clients.
 
-🛠️ Skills & Tools
+Solution
+
+SafeFreelance AI uses AI assisted tools to help freelancers analyze potential risks and make better decisions before starting a project.
+
+Key Features
+
+• AI Client Risk Analysis
+• Scam Risk Assessment
+• Payment Proof Analysis
+• AI Contract Generation
+• Project Risk Evaluation
+• Freelancer Safety Tools
+
+Technologies Used
+
+Frontend
+
+• React
+• TypeScript
+• TSX
+• Tailwind CSS
+• CSS
+
+Backend
+
+• Node.js
+• Express
+• TypeScript
+
+AI
+
+• Groq AI API
+• Llama Model
+
+Build & Development Tool
+
+• Vite
+
+API Documentation
+
+• OpenAPI YAML
+
+Configuration
+
+• JSON
+
+Development & Deployment
+
+• Replit
+
+Final Result
+
+A working SafeFreelance AI MVP has been developed and published on Replit.
+
+"🔗 View Live SafeFreelance AI" (https://ai-assistant-setup--saamiaali608.replit.app/)
+
+---
+
+🎓 Must Watch
+
+English Language Learning Web Application
+
+Must Watch is an English language learning website designed to help learners practice and improve their English through an interactive and user friendly experience.
+
+Problem
+
+English learners can struggle with vocabulary, sentence formation, pronunciation, and regular practice.
+
+Solution
+
+Must Watch provides an interactive learning experience that helps users practice English and improve their language skills.
+
+Key Features
+
+• English Language Learning
+• Vocabulary Practice
+• English Practice Activities
+• Interactive Learning Experience
+• User Friendly Interface
+
+Final Result
+
+A working English language learning website has been developed and published on Replit.
+
+"🔗 View Live Must Watch" (https://must-watch--itssaamiaali.replit.app/)
+
+🛠️ Skills & Technologies
 
 Web Development
 
 • HTML
 • CSS
-• Web Development
+• React
+• TypeScript
+• Tailwind CSS
+• Node.js
+• Express
+• Vite
 • WordPress
 • Firebase
 
-AI & Development Tools
+AI Assisted Development
 
 • ChatGPT
 • Claude AI
 • Google AI Tools
 • Kimi AI
 • Replit
+• Groq AI API
+
+Development Platforms
+
 • GitHub
+• Replit
 
 Digital Skills
 
@@ -52,42 +145,48 @@ Digital Skills
 • Social Media Marketing
 • Digital Marketing
 
-🚀 Projects
+🎓 Courses & Learning
 
-SafeFreelance AI
+I completed a Vibe Coding with AI course where I learned AI assisted development and practical digital product creation.
 
-SafeFreelance AI is a SaaS project designed to help freelancers evaluate potential client and project risks before starting work.
+Completed Courses
 
-Problem
+• CIT
+• MS Office
+• Social Media Marketing
+• Digital Marketing
+• Vibe Coding with AI
+• Web Development
 
-Freelancers can face fake clients, suspicious payment proofs, payment disputes, and unclear project requirements.
+🏆 Achievements & Experience
 
-Solution
+• Built and deployed a personal portfolio
+• Developed and published SafeFreelance AI
+• Developed and published Must Watch
+• Completed Vibe Coding with AI training
+• Completed a Microsoft Office internship
+• Completed a Vibe Coding with AI internship
+• Practiced building websites and digital products using AI assisted development workflows
 
-SafeFreelance AI explores AI assisted tools that can help freelancers identify potential risks and make better decisions before accepting a project.
+📚 Current Focus
 
-Planned Features
+I am currently focusing on:
 
-• AI Client Risk Analysis
-• Scam Risk Score
-• Payment Proof Analysis
-• AI Contract Generator
-• Milestone Payment Planner
-• Project Dashboard
+• Building practical web applications
+• Improving frontend development skills
+• Learning backend development
+• Exploring AI assisted development
+• Building SaaS products
+• Creating useful digital products
+• Improving my programming and development skills
 
-Must Watch
+💡 Project Approach
 
-Must Watch is a web project designed to organize recommended movies, shows, and entertainment content in a simple and user friendly interface.
+I focus on building practical projects that solve real problems and help me develop my skills through hands on experience.
 
-"View Must Watch" (https://must-watch--itssaamiaali.replit.app/)
+I use AI assisted development as a learning and development tool while continuously improving my understanding of web technologies and application development.
 
-🎓 Learning
-
-I am continuously developing my skills through practical projects, courses, and AI assisted development.
-
-My current focus is building useful web applications and SaaS products while improving my web development skills.
-
-📫 Contact
+📫 Connect With Me
 
 Email: buildwithsaamia@gmail.com
 
@@ -101,6 +200,12 @@ Threads: "@buildwithsaamia" (https://threads.net/@buildwithsaamia)
 
 TikTok: "@saamia_ali" (https://tiktok.com/@saamia_ali)
 
-📄 License
+⭐ Thank You
 
-This project is licensed under the MIT License.
+Thank you for visiting my GitHub portfolio.
+
+I am continuously learning, building, and improving through practical projects and AI assisted development.
+
+Saamia Ali
+
+AI Assisted Web Developer
