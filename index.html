@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saamia Ali - AI Web Developer & SaaS Builder. Building digital solutions with AI-powered technologies.">
+    <title>Saamia Ali | AI Web Developer & SaaS Builder</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-bg: #0a0e27;
+            --secondary-bg: #141b2f;
+            --tertiary-bg: #1a2541;
+            --accent-bright-blue: #1e90ff;
+            --accent-cyan: #00d4ff;
+            --accent-orange: #1e90ff;
+            --text-primary: #ffffff;
+            --text-secondary: #a0aec0;
+            --text-tertiary: #6b7280;
+            --border-color: rgba(30, 144, 255, 0.2);
+            --glow-color: rgba(0, 212, 255, 0.3);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, var(--primary-bg) 0%, #0d1120 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        /* Animated Background Elements */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(30, 144, 255, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(0, 212, 255, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }/* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 14, 39, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 1.2rem 2rem;
+        }
+
+        nav .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-bright-blue), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-bright-blue), var(--accent-cyan));
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--accent-cyan);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px;
+            position: relative;
+            overflow: hidden;
+            padding: 4rem 2rem;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(30, 144, 255, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            top: -200px;
+            right: -150px;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            bottom: -100px;
+            left: -100px;
+            animation: float 8s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-cyan) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+.hero-badge {
+            display: inline-block;
+            background: rgba(30, 144, 255, 0.1);
+            border: 1px solid var(--accent-bright-blue);
+            color: var(--accent-cyan);
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .btn {
+            padding: 1.1rem 2.8rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: left 0.3s ease;
+        }
+
+        .btn:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-bright-blue), var(--accent-cyan));
+            color: var(--primary-bg);
+            box-shadow: 0 8px 32px rgba(30, 144, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 48px rgba(30, 144, 255, 0.5);
+        }
+
+        .btn-secondary {
+            border: 2px solid var(--accent-bright-blue);
+            color: var(--accent-cyan);
+            background: rgba(30, 144, 255, 0.05);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(30, 144, 255, 0.15);
+            border-color: var(--accent-cyan);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 32px rgba(0, 212, 255, 0.2);
+        }
+
+        /* Sections */
+        section {
+            padding: 6rem 0;
+            position: relative;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        section h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+            letter-spacing: -1px;
+            background: linear-gradient(135deg, var(--accent-bright-blue), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Glass Cards */
+        .glass-card {
+            background: rgba(20, 27, 47, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(30, 144, 255, 0.05) 0%, transparent 100%);
+            pointer-events: none;
+        }
+
+        .glass-card:hover {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+            transform: translateY(-5px);
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-bright-blue);
+        }
+
+        .about-content p {
+            margin-bottom: 1.2rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+.stat-card {
+            background: rgba(30, 144, 255, 0.05);
+            border: 1px solid var(--accent-bright-blue);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-bright-blue), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            position: relative;
+        }
+
+        .skill-category h3 {
+            color: var(--accent-cyan);
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .skill-tag {
+            background: rgba(30, 144, 255, 0.1);
+            color: var(--accent-cyan);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            border: 1px solid var(--accent-bright-blue);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: default;
+        }
+
+        .skill-tag:hover {
+            background: var(--accent-bright-blue);
+            color: var(--primary-bg);
+            box-shadow: 0 4px 12px rgba(30, 144, 255, 0.3);
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            gap: 3rem;
+        }
+
+        .project-card {
+            background: rgba(20, 27, 47, 0.7);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .project-card:hover {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 16px 48px rgba(0, 212, 255, 0.2);
+            transform: translateY(-8px) scale(1.02);
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, rgba(30, 144, 255, 0.1) 0%, rgba(0, 212, 255, 0.05) 100%);
+            padding: 2.5rem;
+            border-bottom: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        .project-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--accent-bright-blue), var(--accent-cyan));
+        }
+
+        .project-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-header h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .project-type {
+            color: var(--accent-orange);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+        }
+
+        .project-content {
+            padding: 2.5rem;
+        }
+
+        .case-study-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .case-study-section h4 {
+            color: var(--accent-cyan);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            font-weight: 700;
+        }
+
+        .case-study-section p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .feature-list {
+            list-style: none;
+            margin: 1rem 0;
+        }
+
+        .feature-list li {
+            padding: 0.6rem 0 0.6rem 1.8rem;
+            position: relative;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--accent-orange);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin: 1rem 0;
+        }
+
+        .tech-item {
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--accent-cyan);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            font-weight: 500;
+        }
+
+        .live-link {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .live-link a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.3s ease;
+            font-size: 1.05rem;
+        }
+
+        .live-link a:hover {
+            color: var(--accent-orange);
+            transform: translateX(5px);
+        }/* Achievements */
+        .achievements-list {
+            background: rgba(20, 27, 47, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 3rem;
+            backdrop-filter: blur(20px);
+            margin-bottom: 3rem;
+        }
+
+        .achievements-list h3 {
+            color: var(--accent-bright-blue);
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .achievement-item {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .achievement-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .achievement-icon {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: rgba(30, 144, 255, 0.2);
+            border: 1px solid var(--accent-bright-blue);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-cyan);
+            font-weight: bold;
+        }
+
+        .achievement-content {
+            flex: 1;
+        }
+
+        .achievement-content strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .achievement-content p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Contact Section */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        .contact-info-box {
+            background: rgba(20, 27, 47, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            backdrop-filter: blur(20px);
+        }
+
+        .contact-info-box h3 {
+            color: var(--accent-bright-blue);
+            margin-bottom: 2rem;
+            font-size: 1.3rem;
+        }
+
+        .contact-item {
+            margin-bottom: 1.8rem;
+            padding-bottom: 1.8rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact-label {
+            color: var(--accent-orange);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.6rem;
+            font-weight: 700;
+        }
+
+        .contact-item a,
+        .contact-item p {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .contact-item a:hover {
+            color: var(--accent-cyan);
+        }
+
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .social-link {
+            background: rgba(30, 144, 255, 0.1);
+            border: 1px solid var(--accent-bright-blue);
+            padding: 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--accent-cyan);
+            text-align: center;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .social-link:hover {
+            background: var(--accent-bright-blue);
+            color: var(--primary-bg);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(30, 144, 255, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: rgba(10, 14, 39, 0.8);
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--accent-orange);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            .about-grid,
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+.btn {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        section {
+            animation: slideInLeft 0.8s ease-out;
+        }
+
+        /* Code Block Style */
+        code {
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--accent-cyan);
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#home" class="logo">Saamia.Dev</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Building Digital Solutions</div>
+            <h1>Saamia Ali</h1>
+            <p class="hero-subtitle">AI Assisted Web Developer | SaaS Builder</p>
+            <p>I build modern websites, AI-powered web apps, and digital solutions for businesses.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                    View My Work
+                </button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Let's Collaborate
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Building Digital Products</h3>
+                    <p>
+                        I'm a web developer focused on building practical websites and applications using modern technologies 
+                        and AI-assisted tools. I work on frontend development, web applications, and SaaS products.
+                    </p>
+                    <p>
+                        Every project I work on follows a straightforward approach: understand what's needed, build it well, 
+                        and make sure it works properly. I use React, Node.js, and AI tools to create applications that solve 
+                        real problems for users.
+                    </p>
+                    <p>
+                        I'm currently focused on improving my development skills, learning backend development, and exploring 
+                        how AI can be better integrated into web applications.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">AI Tools Used</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Courses Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Internships Done</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Stack</h2>
+            <div class="skills-grid">
+                <div class="glass-card">
+                    <h3>⚛️ Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Modern JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <h3>🔧 Backend & Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Vite</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Database Design</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <h3>🤖 AI & LLM Integration</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Claude AI</span>
+                        <span class="skill-tag">ChatGPT API</span>
+                        <span class="skill-tag">Groq AI</span>
+                        <span class="skill-tag">Llama Models</span>
+                        <span class="skill-tag">AI Prompting</span>
+                        <span class="skill-tag">AI-Assisted Dev</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <h3>🛠️ Development Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Replit</span>
+                        <span class="skill-tag">Netlify</span>
+                        <span class="skill-tag">Git/Version Control</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">API Documentation</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <h3>🎨 Design & UX Principles</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Design Systems</span>
+                        <span class="skill-tag">Typography</span>
+                        <span class="skill-tag">Color Theory</span>
+                        <span class="skill-tag">Accessibility</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <h3>📊 SaaS & Product Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Product Architecture</span>
+                        <span class="skill-tag">MVP Development</span>
+                        <span class="skill-tag">Scalability</span>
+                        <span class="skill-tag">User Analytics</span>
+                        <span class="skill-tag">Performance Optimization</span>
+                        <span class="skill-tag">Security Best Practices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- SafeFreelance AI -->
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-icon">🛡️</div>
+                        <h3>SafeFreelance AI</h3>
+                        <p class="project-type">SaaS Platform • Risk Assessment</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="case-study-section">
+                            <h4>What It Does</h4>
+                            <p>
+                                An AI-powered platform that helps freelancers identify potential risks before accepting client projects. 
+                                Analyzes client profiles, payment methods, and project details to flag suspicious patterns.
+                            </p>
+                        </div>
+
+                        <div class="case-study-section">
+                            <h4>Key Features</h4>
+                            <ul class="feature-list">
+                                <li>AI client risk analysis</li>
+                                <li>Payment verification</li>
+                                <li>Scam detection</li>
+                                <li>Contract analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="case-study-section">
+                            <h4>Built With</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">React</span>
+                                <span class="tech-item">Node.js</span>
+                                <span class="tech-item">Groq AI</span>
+                                <span class="tech-item">TypeScript</span>
+                            </div>
+                        </div>
+
+                        <div class="live-link">
+                            <a href="https://ai-assistant-setup--saamiaali608.replit.app/" target="_blank">
+                                → View Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Must Watch -->
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-icon">📚</div>
+                        <h3>Must Watch</h3>
+                        <p class="project-type">Learning Platform • Interactive App</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="case-study-section">
+                            <h4>What It Does</h4>
+                            <p>
+                                An interactive English language learning platform designed for practical practice. 
+                                Users engage with vocabulary exercises, practice activities, and progress tracking.
+                            </p>
+                        </div><div class="case-study-section">
+                            <h4>Key Features</h4>
+                            <ul class="feature-list">
+                                <li>Vocabulary practice exercises</li>
+                                <li>Interactive learning activities</li>
+                                <li>Progress tracking</li>
+                                <li>User-friendly interface</li>
+                            </ul>
+                        </div>
+
+                        <div class="case-study-section">
+                            <h4>Built With</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">React</span>
+                                <span class="tech-item">JavaScript</span>
+                                <span class="tech-item">Modern CSS</span>
+                                <span class="tech-item">Interactive Components</span>
+                            </div>
+                        </div>
+
+                        <div class="live-link">
+                            <a href="https://must-watch--itssaamiaali.replit.app/" target="_blank">
+                                → View Platform
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paulo Restaurant -->
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-icon">✨</div>
+                        <h3>Paulo Restaurant</h3>
+                        <p class="project-type">Website • Responsive Design</p>
+                    </div>
+                    <div class="project-content">
+                        <div class="case-study-section">
+                            <h4>What It Is</h4>
+                            <p>
+                                A modern, responsive website for a fine dining restaurant. Showcases the restaurant experience with 
+                                menu display, reservation system, location information, and event booking capabilities.
+                            </p>
+                        </div>
+
+                        <div class="case-study-section">
+                            <h4>Features</h4>
+                            <ul class="feature-list">
+                                <li>Multi-page website (7 pages)</li>
+                                <li>Menu with categories and pricing</li>
+                                <li>Reservation booking form</li>
+                                <li>Multiple location information</li>
+                                <li>Events and private dining showcase</li>
+                                <li>Fully responsive design</li>
+                            </ul>
+                        </div>
+
+                        <div class="case-study-section">
+                            <h4>Built With</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">HTML5</span>
+                                <span class="tech-item">CSS3</span>
+                                <span class="tech-item">JavaScript</span>
+                                <span class="tech-item">Vite</span>
+                                <span class="tech-item">Netlify</span>
+                            </div>
+                        </div>
+
+                        <div class="live-link">
+                            <a href="https://paulo-restaurant.netlify.app/" target="_blank">
+                                → Visit Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements & Experience</h2>
+            
+            <div class="achievements-list">
+                <h3>🏆 Key Accomplishments</h3>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Built & Deployed Personal Portfolio</strong>
+                        <p>Professional showcase platform demonstrating full-stack development capabilities and design expertise</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Developed SafeFreelance AI SaaS Platform</strong>
+                        <p>Full-stack application integrating advanced AI APIs for real-world problem solving in the freelance market</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Launched Must Watch EdTech Platform</strong>
+                        <p>Interactive learning application demonstrating UX excellence and technical implementation</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Completed Vibe Coding with AI Specialization</strong>
+                        <p>Advanced training in AI-assisted development workflows and modern SaaS product development</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Microsoft Office Professional Certification</strong>
+                        <p>Internship completing comprehensive productivity suite training and business software expertise</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Vibe Coding AI Internship Completion</strong>
+                        <p>Hands-on experience with AI-assisted development methodologies and practical implementation</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✓</div>
+                    <div class="achievement-content">
+                        <strong>Extensive Portfolio Development Practice</strong>
+                        <p>Continuous building of websites and digital products using AI-assisted development workflows</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements-list">
+                <h3>📚 Educational Background & Courses</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                    Completed comprehensive training programs spanning web development, AI integration, and digital product creation.
+                </p>
+                <div class="achievement-item">
+                    <div class="achievement-icon">📖</div>
+                    <div class="achievement-content">
+                        <strong>Vibe Coding with AI</strong>
+                        <p>Specialized training in AI-assisted development, modern frameworks, and digital product creation methodologies</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">📖</div>
+                    <div class="achievement-content">
+                        <strong>Full Web Development Curriculum</strong>
+                        <p>Frontend technologies (HTML5, CSS3, React), backend systems (Node.js, databases), and deployment</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">📖</div>
+                    <div class="achievement-content">
+                        <strong>Digital Marketing & Business Skills</strong>
+                        <p>Courses in social media marketing, digital marketing strategy, and business technology tools</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">📖</div>
+                    <div class="achievement-content">
+                        <strong>Professional Software Suite Training</strong>
+                        <p>MS Office certification covering spreadsheets, presentations, documents, and productivity optimization</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">📖</div>
+                    <div class="achievement-content">
+                        <strong>Computer Information Technology (CIT)</strong>
+                        <p>Foundational IT knowledge, systems, troubleshooting, and technical infrastructure</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements-list">
+                <h3>🎯 Current Focus & Growth Direction</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                    Actively developing expertise across multiple strategic areas in modern web development and AI integration.
+                </p>
+                <div class="achievement-item">
+                    <div class="achievement-icon">→</div>
+                    <div class="achievement-content">
+                        <strong>Building Practical Web Applications</strong>
+                        <p>Creating production-ready applications that solve real problems with clean, maintainable code</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">→</div>
+                    <div class="achievement-content">
+                        <strong>Advanced Frontend Development</strong>
+                        <p>Mastering React patterns, state management, component architecture, and performance optimization</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">→</div>
+                    <div class="achievement-content">
+                        <strong>Backend System Design</strong>
+                        <p>Learning scalable architecture, database design, API development, and server infrastructure</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">→</div>
+                    <div class="achievement-content">
+                        <strong>AI Integration & LLM Implementation</strong>
+                        <p>Exploring advanced AI APIs, prompt engineering, and integration patterns for intelligent applications</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">→</div>
+                    <div class="achievement-content">
+                        <strong>SaaS Product Development</strong>
+                        <p>Building scalable, multi-tenant SaaS platforms from architecture through deployment</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">→</div>
+                    <div class="achievement-content">
+                        <strong>Continuous Skill Enhancement</strong>
+                        <p>Staying current with emerging technologies, design patterns, and industry best practices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info-box">
+                    <h3>Ready to collaborate?</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.8;">
+                        Whether you're looking to build a SaaS platform, create an interactive web application, or integrate AI capabilities 
+                        into your product—I'm ready to help. Let's discuss how I can contribute to your vision.
+                    </p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-label">📧 Email</div>
+                        <a href="mailto:buildwithsaamia@gmail.com">buildwithsaamia@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-label">📍 Location</div>
+                        <p>Karachi, Pakistan</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-label">💼 Follow & Connect</div>
+                        <div class="social-grid">
+                            <a href="https://github.com/buildwithsaamia-hash" class="social-link" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/saamia-ali-559836419" class="social-link" target="_blank">LinkedIn</a>
+                            <a href="https://instagram.com/buildwithsaamia" class="social-link" target="_blank">Instagram</a>
+                            <a href="https://facebook.com/saamia.ali" class="social-link" target="_blank">Facebook</a>
+                            <a href="https://threads.net/@buildwithsaamia" class="social-link" target="_blank">Threads</a>
+                            <a href="https://tiktok.com/@saamia_ali" class="social-link" target="_blank">TikTok</a>
+                        </div>
+                    </div>
+                </div>
+<div class="contact-info-box">
+                    <h3>What I Can Help With</h3>
+                    <div class="feature-list">
+                        <li><strong>SaaS Platform Development</strong> - Full-stack SaaS applications with modern tech stack</li>
+                        <li><strong>AI Integration</strong> - Seamless incorporation of Claude, ChatGPT, and other LLMs</li>
+                        <li><strong>Web Application Development</strong> - Interactive, performant web apps with React</li>
+                        <li><strong>Frontend Architecture</strong> - Scalable component systems and design systems</li>
+                        <li><strong>Backend Development</strong> - Node.js/Express servers, API design, databases</li>
+                        <li><strong>Product Design & UX</strong> - User-centered design with technical implementation</li>
+                        <li><strong>Deployment & DevOps</strong> - Netlify, Replit, GitHub, and cloud infrastructure</li>
+                        <li><strong>Digital Product Strategy</strong> - MVP development, product validation, scaling</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Saamia Ali. AI Assisted Web Developer & SaaS Builder.</p>
+            <p>
+                📧 <a href="mailto:buildwithsaamia@gmail.com">buildwithsaamia@gmail.com</a> | 
+                <a href="https://github.com/buildwithsaamia-hash" target="_blank">GitHub</a> | 
+                <a href="https://www.linkedin.com/in/saamia-ali-559836419" target="_blank">LinkedIn</a> | 
+                <a href="https://instagram.com/buildwithsaamia" target="_blank">Instagram</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">Building digital solutions with AI • Karachi, Pakistan 🇵🇰</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({behavior: 'smooth'});
+                }
+            });
+        });
+
+        // Fade in on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        });
+
+        document.querySelectorAll('.project-card, .glass-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
