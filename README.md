@@ -216,7 +216,7 @@ Threads:
 https://threads.net/@buildwithsaamia
 
 TikTok:
-https://tiktok.com/@saamia_ali
+https://tiktok.com/@buildwithsaamia
 
 📁 Project Structure
 
