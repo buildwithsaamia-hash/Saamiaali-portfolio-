@@ -6,7 +6,7 @@ Welcome to my professional portfolio! I'm an **AI Assisted Web Developer & SaaS 
 
 This is my professional portfolio website showcasing my work in web development, AI integration, and digital product creation. The portfolio features my recent projects, skills, and achievements.
 
-**Live Portfolio:** [saamia-portfolio.netlify.app](https://saamia-portfolio.netlify.app) or [GitHub Pages](https://buildwithsaamia-hash.github.io/portfolio)
+**Live Portfolio:** (https://buildwithsaamia-hash.github.io/Saamiaali-portfolio-/)
 
 ---
 
