@@ -4,12 +4,12 @@ Welcome to my professional portfolio.
 
 I’m Saamia Ali, an AI Assisted Web Developer and SaaS Builder based in Karachi, Pakistan. I build modern websites, web applications, AI powered digital solutions, and practical SaaS products using modern web technologies and AI assisted development workflows.
 
-🌐 Portfolio
+ Portfolio
 
 Live Portfolio:
 https://buildwithsaamia-hash.github.io/Saamiaali-portfolio-/
 
-👩‍💻 About Me
+ About Me
 
 I focus on building practical digital products that combine modern web development with AI assisted tools.
 
@@ -28,7 +28,7 @@ My approach is simple:
 
 Understand the problem → Build the solution → Test it → Improve it
 
-🚀 Featured Projects
+ Featured Projects
 
 1. SafeFreelance AI
 
@@ -93,7 +93,7 @@ HTML5, CSS3, JavaScript, Vite, Netlify
 Live Demo:
 https://paulo-restaurant.netlify.app/
 
-🛠️ Skills & Technologies
+ Skills & Technologies
 
 Frontend Development
 
@@ -141,7 +141,7 @@ Design & UX
 • Color Theory
 • Accessibility Principles
 
-✨ Portfolio Features
+ Portfolio Features
 
 • Modern dark theme with blue accents
 • Responsive design for mobile, tablet, and desktop
@@ -153,7 +153,7 @@ Design & UX
 • Clear contact section
 • Social media integration
 
-📊 Portfolio Highlights
+ Portfolio Highlights
 
 Category| Details
 Projects Built| 3 featured projects
@@ -162,7 +162,7 @@ Development Approach| AI Assisted Development
 Deployment| GitHub Pages, Netlify, Replit
 Location| Karachi, Pakistan
 
-🎓 Learning & Experience
+ Learning & Experience
 
 My learning and development journey includes:
 
@@ -176,7 +176,7 @@ My learning and development journey includes:
 
 I continue to improve my skills through practical projects and hands on development.
 
-🎯 Current Focus
+ Current Focus
 
 I am currently focusing on:
 
@@ -188,7 +188,7 @@ I am currently focusing on:
 • Creating useful digital solutions for businesses
 • Improving my AI assisted development workflow
 
-📬 Contact
+ Contact
 
 I’m open to website, web application, AI integration, and digital product opportunities.
 
@@ -218,7 +218,7 @@ https://threads.net/@buildwithsaamia
 TikTok:
 https://tiktok.com/@buildwithsaamia
 
-📁 Project Structure
+ Project Structure
 
 portfolio/
 │
@@ -226,7 +226,7 @@ portfolio/
 ├── README.md
 └── assets/
 
-🚀 Running the Portfolio Locally
+ Running the Portfolio Locally
 
 The portfolio is built as a web project and can be viewed locally by opening the main HTML file in a browser.
 
@@ -234,7 +234,7 @@ The portfolio is built as a web project and can be viewed locally by opening the
 2. Open index.html
 3. View the portfolio in your browser
 
-🌍 Deployment
+ Deployment
 
 The portfolio can be deployed using platforms such as:
 
@@ -243,13 +243,13 @@ The portfolio can be deployed using platforms such as:
 
 The project is designed to work as a lightweight web portfolio without requiring a complex setup.
 
-📄 License
+ License
 
 This portfolio is personal work created by Saamia Ali.
 
 The code and design are intended for personal portfolio and professional presentation purposes.
 
-🙏 Credits
+  Credits
 
 Designed and Built by: Saamia Ali
 
@@ -259,7 +259,7 @@ Based in: Karachi, Pakistan
 
 ---
 
-⭐ If you find my work interesting, feel free to connect with me or explore my projects.
+ If you find my work interesting, feel free to connect with me or explore my projects.
 
 Building practical digital solutions with AI assisted development.
 
