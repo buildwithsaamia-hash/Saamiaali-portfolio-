@@ -1,266 +1,348 @@
-Saamia Ali | AI Assisted Web Developer & SaaS Builder
+# Saamia Ali | AI Assisted Web Developer & SaaS Builder
 
 Welcome to my professional portfolio.
 
-I’m Saamia Ali, an AI Assisted Web Developer and SaaS Builder based in Karachi, Pakistan. I build modern websites, web applications, AI powered digital solutions, and practical SaaS products using modern web technologies and AI assisted development workflows.
+I’m **Saamia Ali**, an AI Assisted Web Developer and SaaS Builder based in Karachi, Pakistan. I build modern websites, web applications, AI powered digital solutions, and practical SaaS products using modern web technologies and AI assisted development workflows.
 
- Portfolio
+## Portfolio
 
-Live Portfolio:
+🌐 **Live Portfolio:**  
 https://buildwithsaamia-hash.github.io/Saamiaali-portfolio-/
 
- About Me
+---
 
-I focus on building practical digital products that combine modern web development with AI assisted tools.
+## About Me
 
-My work includes:
+I focus on building practical digital products by combining modern web development with AI assisted tools.
 
-• Responsive website development
-• Web application development
-• AI integration in web applications
-• SaaS product development
-• Frontend development
-• Backend development
-• UI and UX focused interfaces
-• Deployment and hosting
+My current work includes:
 
-My approach is simple:
+- Responsive website development
+- Web application development
+- AI integration in web applications
+- SaaS development
+- Frontend development
+- Backend development
+- UI and UX focused interfaces
+- Deployment and hosting
 
-Understand the problem → Build the solution → Test it → Improve it
+### My Development Approach
 
- Featured Projects
+**Understand the problem → Build the solution → Test it → Improve it**
 
-1. SafeFreelance AI
-
-AI Powered Freelancer Risk Assessment Platform
-
-SafeFreelance AI is a web application designed to help freelancers assess potential client and project risks.
-
-Features include:
-
-• Client Risk Analysis
-• Scam Risk Assessment
-• Payment Proof Analysis
-• AI Contract Generator
-• Milestone Payment Planner
-• Dashboard
-
-Technologies:
-
-React, TypeScript, Node.js, Express, Groq AI, Vite
-
-Live Demo:
-https://ai-assistant-setup--saamiaali608.replit.app/
+I am continuously learning and improving my development skills through practical projects and AI assisted development workflows.
 
 ---
 
-2. Must Watch
+# Skills
 
-Interactive English Language Learning Platform
+## Frontend Development
 
-Must Watch is an educational web application focused on interactive English language learning.
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
+- React
+- Tailwind CSS
+- Responsive Design
 
-The platform provides a structured learning experience with interactive practice and responsive design.
+## Backend and Web Development
 
-Technologies:
+- Node.js
+- Express.js
+- Firebase
+- Vite
+- REST APIs
+- Database Concepts
 
-React, JavaScript, CSS, Responsive Design
+## AI and AI Assisted Development
 
-Live Demo:
-https://must-watch--itssaamiaali.replit.app/
+- ChatGPT
+- Claude
+- Google AI Studio
+- Bolt
+- Lovable
+- Emergent
+- Replit
+- Kimi
+- AI Prompting
+- AI Assisted Development
+
+## AI API and Integration
+
+- Google AI Studio API
+- Gemini
+- Groq
+- API Integration
+- LLM Integration
+
+## Development and Deployment
+
+- Git
+- GitHub
+- GitHub Pages
+- Netlify
+- Vercel
+- Version Control
+
+## Design and UI/UX
+
+- Canva
+- Figma
+- Google Stitch
+- UI Design
+- UX Principles
+- Responsive Layouts
+- Typography
+- Color Theory
+- Accessibility Principles
 
 ---
 
-3. Paulo Restaurant
+# Featured Projects
 
-Modern Restaurant Website
+## 1. SafeFreelance AI
 
-Paulo Restaurant is a responsive restaurant website concept designed with a modern and premium visual style.
+**AI Powered Freelancer Risk Assessment Platform**
 
-Features include:
+SafeFreelance AI is a web application designed to help freelancers review potential client and project risks before starting work.
 
-• Restaurant information
-• Menu presentation
-• Reservations
-• Locations
-• Events
-• Responsive layout
+### Features
 
-Technologies:
+- Client Risk Analysis
+- Scam Risk Assessment
+- Payment Proof Analysis
+- AI Contract Generator
+- Milestone Payment Planner
+- Dashboard
 
-HTML5, CSS3, JavaScript, Vite, Netlify
+### Technologies
 
-Live Demo:
-https://paulo-restaurant.netlify.app/
+- React
+- TypeScript
+- Tailwind CSS
+- Node.js
+- Express.js
+- Vite
+- Groq
+- AI Assisted Development
 
- Skills & Technologies
+🌐 **Live Project:**  
+https://ai-assistant-setup--saamiaali608.replit.app
 
-Frontend Development
+---
 
-• HTML5
-• CSS3
-• JavaScript
-• React
-• TypeScript
-• Tailwind CSS
-• Responsive Design
+## 2. Must Watch
 
-Backend & Web Development
+**English Learning Web Application**
 
-• Node.js
-• Express.js
-• REST APIs
-• Firebase
-• Database Concepts
-• Vite
+Must Watch is an English learning web application designed to help users improve their English through structured topics and interactive learning features.
 
-AI & LLM Integration
+### Features
 
-• ChatGPT
-• Claude AI
-• Groq AI
-• Llama Models
-• AI Prompting
-• AI Assisted Development
+- 67 English learning topics
+- XP system
+- Streaks
+- Leagues
+- Grammar
+- Conversations
+- Advanced English
+- Basic Words
+- Daily Phrases
+- Grammar Basics
+- Interactive lessons and quizzes
 
-Development Tools
+### Technologies
 
-• Git
-• GitHub
-• Replit
-• Netlify
-• GitHub Pages
-• API Integration
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- AI Assisted Development
 
-Design & UX
+🌐 **Live Project:**  
+https://must-watch--itssaamiaali.replit.app
 
-• UI Design
-• UX Principles
-• Responsive Layouts
-• Typography
-• Color Theory
-• Accessibility Principles
+---
 
- Portfolio Features
+## 3. Paulo Restaurant
 
-• Modern dark theme with blue accents
-• Responsive design for mobile, tablet, and desktop
-• Smooth transitions and animations
-• Semantic HTML structure
-• SEO friendly structure
-• Mobile friendly navigation
-• Interactive project cards
-• Clear contact section
-• Social media integration
+**Responsive Restaurant Website**
 
- Portfolio Highlights
+Paulo Restaurant is a modern responsive restaurant website concept focused on clean design, clear navigation and a user friendly experience.
 
-Category| Details
-Projects Built| 3 featured projects
-Focus| Web Development, AI Integration, SaaS
-Development Approach| AI Assisted Development
-Deployment| GitHub Pages, Netlify, Replit
-Location| Karachi, Pakistan
+### Focus
 
- Learning & Experience
+- Responsive layout
+- Restaurant presentation
+- Menu presentation
+- Modern UI
+- Mobile friendly design
+- User friendly navigation
 
-My learning and development journey includes:
+### Technologies
 
-• Vibe Coding with AI
-• Web Development
-• Microsoft Office
-• Social Media Marketing
-• Digital Skills Training
-• AI Assisted Development
-• Internship experience and practical project work
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- AI Assisted Development
 
-I continue to improve my skills through practical projects and hands on development.
+🌐 **Live Project:**  
+https://paulo-restaurant.netlify.app
 
- Current Focus
+---
 
-I am currently focusing on:
+# Tools I Use
 
-• Building practical web applications
-• Improving frontend development
-• Developing backend skills
-• Exploring AI integration
-• Building SaaS products
-• Creating useful digital solutions for businesses
-• Improving my AI assisted development workflow
+I use a combination of modern development tools, AI assisted development platforms, deployment platforms and design tools.
 
- Contact
+## AI Development Tools
 
-I’m open to website, web application, AI integration, and digital product opportunities.
+- ChatGPT
+- Claude
+- Google AI Studio
+- Bolt
+- Lovable
+- Emergent
+- Replit
+- Kimi
 
-Email:
-buildwithsaamia@gmail.com
+## Development and Deployment Platforms
 
-Location:
-Karachi, Pakistan
+- Git
+- GitHub
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase
 
-Connect With Me
+## Design Tools
 
-GitHub:
+- Canva
+- Figma
+- Google Stitch
+
+## APIs and AI Integration
+
+- Google AI Studio API
+- Gemini
+- Groq
+- REST APIs
+- LLM Integration
+
+---
+
+# Current Focus
+
+I am currently focused on:
+
+- AI Assisted Web Development
+- SaaS Building
+- Vibe Coding with AI
+- Responsive Web Applications
+- AI Integration
+- Modern UI and UX
+- Practical Project Development
+- Continuous Learning
+
+---
+
+# Learning Journey
+
+I am building my skills through practical projects, courses, training and hands on experimentation.
+
+My learning areas include:
+
+- Vibe Coding with AI
+- Web Development with AI
+- Microsoft Office
+- Social Media Marketing
+- English Language
+- Basic Design
+- AI Assisted Development
+- Modern Web Technologies
+
+I continue to learn by building projects and experimenting with different development and AI tools.
+
+---
+
+# Portfolio Highlights
+
+- 3 live projects
+- Responsive web development
+- AI assisted development
+- Web application development
+- SaaS development
+- AI API integration
+- Modern UI and UX
+- Mobile friendly interfaces
+- Deployment and hosting
+
+---
+
+# Social Media
+
+Connect with me and follow my development journey.
+
+### GitHub
+
 https://github.com/buildwithsaamia-hash
 
-LinkedIn:
+### LinkedIn
+
 https://www.linkedin.com/in/saamia-ali-559836419
 
-Instagram:
+### Instagram
+
 https://instagram.com/buildwithsaamia
 
-Facebook:
+### Facebook
+
 https://facebook.com/saamia.ali
 
-Threads:
-https://threads.net/@buildwithsaamia
+### TikTok
 
-TikTok:
-https://tiktok.com/@buildwithsaamia
+https://www.tiktok.com/@buildwithsaamia
 
- Project Structure
+### Threads
 
-portfolio/
-│
-├── index.html
-├── README.md
-└── assets/
-
- Running the Portfolio Locally
-
-The portfolio is built as a web project and can be viewed locally by opening the main HTML file in a browser.
-
-1. Download or clone the repository
-2. Open index.html
-3. View the portfolio in your browser
-
- Deployment
-
-The portfolio can be deployed using platforms such as:
-
-• GitHub Pages
-• Netlify
-
-The project is designed to work as a lightweight web portfolio without requiring a complex setup.
-
- License
-
-This portfolio is personal work created by Saamia Ali.
-
-The code and design are intended for personal portfolio and professional presentation purposes.
-
-  Credits
-
-Designed and Built by: Saamia Ali
-
-Focus: AI Assisted Web Development | SaaS Building | Digital Solutions
-
-Based in: Karachi, Pakistan
+https://www.threads.net/@buildwithsaamia
 
 ---
 
- If you find my work interesting, feel free to connect with me or explore my projects.
+# Contact
 
-Building practical digital solutions with AI assisted development.
+For website development, web applications, SaaS projects or digital solutions, feel free to connect with me.
 
-Last Updated: September 2026
+**Email:**  
+buildwithsaamia@gmail.com
+
+**Portfolio:**  
+https://buildwithsaamia-hash.github.io/Saamiaali-portfolio-/
+
+---
+
+# About This Portfolio
+
+This portfolio showcases my journey as an AI Assisted Web Developer and SaaS Builder.
+
+It presents my live projects, technical skills, development tools, learning journey and social platforms.
+
+The portfolio uses a modern blue and black visual theme with a responsive layout designed for different screen sizes.
+
+---
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Responsive Web Design
+- AI Assisted Development
+
+---
+
+**Saamia Ali**  
+**AI Assisted Web Developer | SaaS Builder**
